@@ -1,0 +1,10 @@
+.vscode/
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.docx
+*.save
+Thumbs.db
+Desktop.ini
+.DS_Store

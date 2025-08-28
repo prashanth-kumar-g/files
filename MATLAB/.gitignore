@@ -1,0 +1,9 @@
+.vscode/
+*.log
+*.mat
+*.mexa64
+*.mexw64
+*.save
+Thumbs.db
+Desktop.ini
+.DS_Store
