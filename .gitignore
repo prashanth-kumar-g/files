@@ -29,34 +29,7 @@ Visual Studio 2017/
 Visual Studio 2022/
 Visual Studio Code/
 # Ignore common junk files
-*.zip
-*.rar
-*.tar
-*.tar.gz
 *.log
-*.tmp
-*.bak
-__pycache__/
-*.pyc
-*.pyo
-.ipynb_checkpoints/
-*.asv
-*.mex*
-*.slxc
-*.slprj/
-*.pdf
-*.txt
-*.docx
-*.xlsx
-*.md
-*.jpg
-*.jpeg
-*.png
-*.mp3
-*.mp4
-*.avi
-*.gif
-*.ico
 *.save
 Thumbs.db
 Desktop.ini

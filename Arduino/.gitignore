@@ -7,10 +7,12 @@ __pycache__/
 *.jpg
 *.jpeg
 *.txt
+*.pdf
 *.png
 *.mp3
 *.mp4
 *.xlsx
+*.md
 *.avi
 *.out
 *.save
