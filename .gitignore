@@ -1,0 +1,63 @@
+# Ignore everything else in Files directory
+.vs/
+.vscode/
+Android Studio/
+Assembly Language/
+Calibre Library/
+Data Set/
+Git/
+GitHub/
+GNU Octave/
+IdeaProjects/
+Java Programs/
+Logisim/
+Mantra MFS 100/
+My Digital Editions/
+NetBeansProjects/
+Office/
+Oracle Virtual Machine/
+Others/
+Power BI/
+PycharmProjects/
+Python Programs/
+Software Testing/
+SQL Server Management Studio/
+SQLite/
+Tally Prime/
+Visual Basic/
+Visual Studio 2017/
+Visual Studio 2022/
+Visual Studio Code/
+# Ignore common junk files
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.asv
+*.mex*
+*.slxc
+*.slprj/
+*.pdf
+*.txt
+*.docx
+*.xlsx
+*.md
+*.jpg
+*.jpeg
+*.png
+*.mp3
+*.mp4
+*.avi
+*.gif
+*.ico
+*.save
+Thumbs.db
+Desktop.ini
+.DS_Store
