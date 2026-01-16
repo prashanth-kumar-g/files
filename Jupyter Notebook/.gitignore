@@ -3,6 +3,12 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.pdf
+*.pptx
 *.docx
 *.save
 Thumbs.db
