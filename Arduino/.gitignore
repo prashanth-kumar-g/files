@@ -2,6 +2,8 @@
 *.log
 /CH341SER
 /CP210x_Windows_Drivers
+/Arduino-Library
+Software/
 Libraries/
 __pycache__/
 *.jpg
@@ -16,6 +18,8 @@ __pycache__/
 *.avi
 *.out
 *.save
+*.exe
+*.whl
 Thumbs.db
 Desktop.ini
 .DS_Store

@@ -2,10 +2,10 @@ import telepot
 #import cv2
 #import geocoder
 # Connect to our bot
-bot = telepot.Bot(token="5388068474:AAHr_Qz5GHRXh_O2SY7DymOeOtFptMlSz4g")
+bot = telepot.Bot(token="8516134409:AAH7cbhJ816w9osZlIsE9Jq-TyV0t16ckFw")
 
 # Sets the id for the active chat
-chat_id=614882195 # Your Chat ID
+chat_id=5102989677 # Your Chat ID
 # Sends a message to the chat
 print("-"*60)
 print("Sending Text Message ")

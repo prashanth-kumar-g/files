@@ -24,17 +24,17 @@ def action(msg):
             ret = False
 
         img1 = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        cv2.imwrite('Manju.png',img1)
+        cv2.imwrite('prash.png',img1)
         cap.release()
         
     elif command == '2':
-        telegram_bot.sendPhoto(chat_id=chat_id,photo=open('Manju.png', 'rb'))
+        telegram_bot.sendPhoto(chat_id=chat_id,photo=open('prash.png', 'rb'))
     elif command == 'Hello':
-        telegram_bot.sendMessage (chat_id, str("Hello! RVCE"))
+        telegram_bot.sendMessage (chat_id, str("Hello! Prashanth"))
     elif command == '3':
          telegram_bot.sendPhoto(chat_id=chat_id,photo=open('123.jpeg', 'rb'))
     elif command == '4':
-        url = "https://images.shiksha.com/mediadata/images/1488189189phpalmxG9.jpeg"
+        url = "https://acebott.com/wp-content/uploads/2025/03/ESP8266-2.webp"
         telegram_bot.sendPhoto(chat_id=chat_id,photo=url)
     elif command == 'Doc':
         telegram_bot.sendDocument(chat_id, document=open('123.txt'))
@@ -42,10 +42,9 @@ def action(msg):
         telegram_bot.sendMessage (chat_id, str("Plz Send Correct Choice"))
     
 
-telegram_bot = telepot.Bot('5388068474:AAHr_Qz5GHRXh_O2SY7DymOeOtFptMlSz4g')
+telegram_bot = telepot.Bot('8516134409:AAH7cbhJ816w9osZlIsE9Jq-TyV0t16ckFw')
 print (telegram_bot.getMe())
 MessageLoop(telegram_bot, action).run_as_thread()
 print ('Up and Running....')
 while 1:
     time.sleep(1)
-    

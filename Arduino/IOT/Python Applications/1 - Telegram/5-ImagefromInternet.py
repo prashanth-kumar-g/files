@@ -1,14 +1,12 @@
-\mport telepot
+import telepot
 
 # Connect to our bot
-bot = telepot.Bot(token="5334877955:AAHzONXFqd6_kBnDIotxD5NChQRcNn7_XYA")
+bot = telepot.Bot(token="8516134409:AAH7cbhJ816w9osZlIsE9Jq-TyV0t16ckFw")
 
 # Sets the id for the active chat
-chat_id=614882195 # Your Chat ID
+chat_id=5102989677 # Your Chat ID
 
 
 # Sends a Image from Internet
-url ="https://images.app.goo.gl/C54MEkkNNNsUtJXb7"
-#url = "https://images.shiksha.com/mediadata/images/1488189189phpalmxG9.jpeg"
+url = 'https://acebott.com/wp-content/uploads/2025/03/ESP8266-2.webp'
 bot.sendPhoto(chat_id=chat_id,photo=url)
-
