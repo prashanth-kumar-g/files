@@ -10,7 +10,10 @@ __pycache__/
 *.pdf
 *.pptx
 *.docx
+*.csv
+*.xlsx
 *.save
 Thumbs.db
 Desktop.ini
 .DS_Store
+**/Image Caption Studio/
